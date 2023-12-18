@@ -1,0 +1,189 @@
+.navbar-brand {
+    color: black;
+    font-weight: bolder;
+    letter-spacing: 4px;
+    margin-right: 65px;
+    margin-left: 38px;
+}
+
+.navbar-brand:hover {
+    color: #ff00cc;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: black;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-right: 45px;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #ff00cc;
+}
+
+.nav-item2 .nav-link {
+    color: black;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-right: 45px;
+}
+
+.nav-item2 .nav-link:hover {
+    color: #ff00cc;
+}
+
+.nav-item3 .nav-link {
+    color: black;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-right: 45px;
+}
+
+.nav-item3 .nav-link:hover {
+    color: #ff00cc;
+}
+
+.form-control {
+    font-family: 'Your-Font', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.btn-outline-success {
+    font-weight: bold;
+    color: #ff00cc;
+    background-color: transparent;
+    border-color: #ff00cc;
+    border-radius: 0;
+}
+
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: #ff00cc;
+    border-color: #ff00cc;
+}
+
+.btn-outline-success .btn-label {
+    font-family: 'Your-Font', sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.form-control {
+    font-family: 'Your-Font', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    border-radius: 0;
+    border-color: #ff00cc;
+    width: 240px;
+}
+
+.form-control::placeholder {
+    color: #ff00cc;
+}
+
+.dropdown-item {
+    color: #000000;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.dropdown-divider {
+    border-color: #ff00cc;
+}
+
+.dropdown-item:hover {
+    background-color: #f8f9fa;
+    color: #ff00cc;
+}
+
+.dropdown-menu {
+    border: 1px solid #ff00cc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 0;
+}
+
+.small {
+    font-weight: 750;
+    font-size: 23px;
+    color: #000000;
+    position: relative;
+    left: 54px;
+    top: -290px;
+    letter-spacing: 2px;
+}
+
+.large {
+    font-weight: 650;
+    font-size: 206px;
+    color: #000000;
+    margin-top: 453px;
+    margin-left: 37px;
+    letter-spacing: 2px;
+}
+
+img {
+    width: 230px;
+    height: auto;
+    margin-top: -1150px;
+    margin-left: 50px;
+}
+
+.monster {
+    font-weight: 650;
+    font-size: 15px;
+    color: #000000;
+    position: relative;
+    left: 150px;
+    top: -400px;
+}
+
+.bye1 {
+    font-weight: 650;
+    font-size: 15px;
+    color: #000000;
+    position: relative;
+    left: 400px;
+    top: -423px;
+}
+
+.every1 {
+    font-weight: 650;
+    font-size: 15px;
+    color: #000000;
+    position: relative;
+    left: 621px;
+    top: -446px;
+}
+
+.girl1 {
+    font-weight: 650;
+    font-size: 15px;
+    color: #000000;
+    position: relative;
+    left: 942px;
+    top: -469px;
+}
+
+.drive1 {
+    font-weight: 650;
+    font-size: 15px;
+    color: #000000;
+    position: relative;
+    left: 1210px;
+    top: -492px;
+}
+
+.love {
+    font-weight: 750;
+    font-size: 18px;
+    color: #000000;
+    position: relative;
+    left: 54px;
+    top: -909px;
+    letter-spacing: 2px;
+}

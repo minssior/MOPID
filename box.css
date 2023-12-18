@@ -1,0 +1,252 @@
+.navbar-brand {
+    color: black;
+    font-weight: bolder;
+    letter-spacing: 4px;
+    margin-right: 65px;
+    margin-left: 38px;
+}
+
+.navbar-brand:hover {
+    color: #ff00cc;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: black;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-right: 45px;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #ff00cc;
+}
+
+.nav-item2 .nav-link {
+    color: black;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-right: 45px;
+}
+
+.nav-item2 .nav-link:hover {
+    color: #ff00cc;
+}
+
+.nav-item3 .nav-link {
+    color: black;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-right: 45px;
+}
+
+.nav-item3 .nav-link:hover {
+    color: #ff00cc;
+}
+
+.form-control {
+    font-family: 'Your-Font', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.btn-outline-success {
+    font-weight: bold;
+    color: #ff00cc;
+    background-color: transparent;
+    border-color: #ff00cc;
+    border-radius: 0;
+}
+
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: #ff00cc;
+    border-color: #ff00cc;
+}
+
+.btn-outline-success .btn-label {
+    font-family: 'Your-Font', sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.form-control {
+    font-family: 'Your-Font', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    border-radius: 0;
+    border-color: #ff00cc;
+}
+
+.form-control::placeholder {
+    color: #ff00cc;
+}
+
+.dropdown-item {
+    color: #000000;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.dropdown-divider {
+    border-color: #ff00cc;
+}
+
+.dropdown-item:hover {
+    background-color: #f8f9fa;
+    color: #ff00cc;
+}
+
+.dropdown-menu {
+    border: 1px solid #ff00cc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 0;
+}
+
+.large {
+    font-weight: 650;
+    font-size: 206px;
+    color: #000000;
+    margin-top: 453px;
+    margin-left: 37px;
+    letter-spacing: 2px;
+}
+
+.large-2 {
+    font-weight: 650;
+    font-size: 206px;
+    color: #000000;
+    margin-top: -310px;
+    margin-left: 980px;
+    letter-spacing: 2px;
+}
+
+.small {
+    font-weight: 750;
+    font-size: 26px;
+    color: #000000;
+    position: relative;
+    left: 46px;
+    top: -740px;
+    letter-spacing: 2px;
+}
+
+.highlight {
+    color: #ff00cc;
+}
+
+.new {
+    font-weight: 900;
+    font-size: 23px;
+    color: #000000;
+    position: relative;
+    left: 46px;
+    top: -710px;
+    letter-spacing: 3px;
+    margin-right: 1160px;
+}
+
+.new:hover {
+    color: #fff;
+    background-color: #ff00cc;
+    border-color: #ff00cc;
+}
+
+.small-2 {
+    font-weight: 800;
+    font-size: 28px;
+    color: #000000;
+    position: relative;
+    left: 46px;
+    top: -680px;
+}
+
+.small-3 {
+    font-weight: 800;
+    font-size: 28px;
+    color: #000000;
+    position: relative;
+    left: 795px;
+    top: -748px;
+}
+
+.every {
+    width: 190px;
+    height: auto;
+    margin-top: -1060px;
+    margin-left: 50px;
+}
+
+.coco {
+    width: 190px;
+    height: auto;
+    margin-top: -1060px;
+    margin-left: 16px;
+}
+
+.lucy {
+    width: 200px;
+    height: auto;
+    margin-top: -1880px;
+    margin-left: 795px;
+}
+
+.yoon {
+    width: 200px;
+    height: auto;
+    margin-top: -1930px;
+    margin-left: 1003px;
+}
+
+#myBox2 {
+    position: relative;
+    top: -1075px;
+    left: 1211px;
+    width: 190px;
+    height: 200px;
+    background-color: #ff00cc;
+    border: 2px solid #ff00cc;
+    transition: opacity 0.5s;
+}
+
+#myBox {
+    position: relative;
+    top: -718px;
+    left: 470px;
+    width: 190px;
+    height: 272px;
+    background-color: #ff00cc;
+    border: 2px solid #ff00cc;
+    transition: opacity 0.5s;
+}
+
+#myBox:hover {
+    opacity: 0;
+}
+
+.small-4 {
+    font-weight: 400;
+    font-size: 48px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    left: 550px;
+    top: -890px;
+    letter-spacing: 3px;
+}
+
+#myBox2:hover {
+    opacity: 0;
+}
+
+.small-5 {
+    font-weight: 400;
+    font-size: 48px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    left: 1290px;
+    top: -1210px;
+    letter-spacing: 3px;
+}

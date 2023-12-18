@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mopid Diary</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/53a8c415f1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./diary.css">
+
+    <style>
+       
+        body {
+            overflow-x: hidden; 
+            overflow-y: hidden; 
+        }
+
+        .image-container {
+            white-space: nowrap;
+            text-align: center;
+            overflow: hidden; 
+        }
+
+        .image-container img {
+            display: inline-block;
+            margin: 0 10px;
+        }
+    </style>
+  </head>
+  
+  <body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" 
+          href="./index.html">
+            Mopid</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Mopid Museum</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./park.html">Mopid Park</a>
+              </li>
+
+              <li class="nav-item2">
+                <a class="nav-link" href="./diary.html">Mopid Diary</a>
+              </li>
+
+              <li class="nav-item3">
+                <a class="nav-link" href="./box.html">Mopid Box</a>
+              </li>
+              
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 Join Mopid
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./signin.html">로그인</a></li>
+                  <li><a class="dropdown-item" href="#">회원가입</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">회원정보 변경</a></li>
+                </ul>
+              </li>
+            
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Find your MOPID ! " aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Find</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    
+    
+    
+        <div class="wrapper">
+            <div class="wrmain">
+        <form>
+            <p><input type="date" id="date" name="date1" value="2023-05-11" class="date"></p>
+            <input type="text" id="title" name="title" placeholder="제목" value="괴물, 고레에다 히로카즈(2023)" required class="title">
+            <br>
+            <textarea name="content" id="content" placeholder="내용" 
+            required style="text-align: left;">
+                영화는 동시간대에 일어난 일을 서로 다른 세 명의 인물의 시선으로 보여준다.먼저 ‘미나토’의 어머니의 시선을 따라간다. 
+                아이의 몸에 남은 상처와 추궁 끝에 힘겹게 뱉어내는 고백을 듣게 되면 의심의 여지 없이 ‘호리’ 선생이 이 모든 문제의 원흉이자 도무지 이해할 수 없는 행동을 하는 이 영화의 제목처럼 괴물인 듯한다. 
+                의미 없는 사과만 반복하는 교장 선생과 동료 선생들 역시 하나같이 속내를 감춘 괴물로 보인다.
+                스크린 너머의 나조차 그들을 향한 분노를 주체하기 힘들어질 때 카메라는 기다렸다는 듯이 호리의 시선으로 다시 보여준다. 
+                여느 다른 선생들처럼 평범하기 위해 노력했던 호리는 소문의 와전과 불운으로 인해 한없이 나락의 구렁텅이에 빠진다. 
+                불과 몇 분 전까지 호리를 향했던 나의 증오에서 오는 부끄러움을 더해 나는 더욱 깊이, 있는 힘껏 괴물 미나토를 증오했다.
+            </textarea>
+            <button id="bt1" type="submit" class="bt1">등록</button>
+            <button id="bt2" type="reset" class="bt2">초기화</button>
+        </form>
+            </div>
+        </div>
+
+        <div class="d">MOPID    
+            <span class="highlight"> diary</span></div>
+            
+            <a href="https://www.youtube.com/watch?v=xoviKDGaLao">
+                <img src="./괴물.jpg" alt="괴물, 고레에다 히로카즈(2023)">
+            </a>
+            
+
+                <div class="d-1">
+                    <p>“우리 동네에는 괴물이 산다”</p>
+                    <p>싱글맘 사오리(안도 사쿠라)는 아들 미나토(쿠로카와 소야)의 행동에서 <br>
+                        이상 기운을 감지한다.
+                    용기를 내 찾아간 학교에서 상담을 진행한 날 이후 <br>
+                    선생님과 학생들의 분위기가 심상치 않게 흐르기 시작하고.</p>
+                    <p>“괴물은 누구인가?”</p>
+                    <p>한편 사오리는 친구들로부터 따돌림을 당하고 있는 미나토의 친구 <br>
+                        요리(히이라기 히나타)의 존재를 알게 되고 자신이 아는 아들의 모습과 <br>
+                    사람들이 아는 아들의 모습이 다르다는 사실을 어렴풋이 깨닫는데…<br>
+                    태풍이 몰아치던 어느 날, 아무도 몰랐던 진실이 드러난다.</p>
+                </div>
+
+                <a href="https://www.youtube.com/watch?v=W51tXJ1YwuA" target="_blank">
+                    <img class="a" src="./2559207.jpg" alt="Aqua, Ryuichi Sakamoto(2016)">
+                </a>
+                
+                    
+
+                
+              
+
+                <div class="d-2">
+                    <p>Aqua</p>
+                    <p>by Ryuichi Sakamoto (2016)</p>
+                </div>
+                
+                
+                
+    </body>
+    </html>
